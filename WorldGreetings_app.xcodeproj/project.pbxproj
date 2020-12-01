@@ -65,8 +65,6 @@
 		4FFA620B25764FA900231E57 = {
 			isa = PBXGroup;
 			children = (
-				4FFA6260257651FB00231E57 /* WorldGreetings_app_en.xctestplan */,
-				4FFA62642576522900231E57 /* WorldGreetings_app_es.xctestplan */,
 				4FFA621625764FA900231E57 /* WorldGreetings_app */,
 				4FFA622825764FAC00231E57 /* WorldGreetings_appTests */,
 				4FFA621525764FA900231E57 /* Products */,
@@ -85,6 +83,8 @@
 		4FFA621625764FA900231E57 /* WorldGreetings_app */ = {
 			isa = PBXGroup;
 			children = (
+				4FFA6260257651FB00231E57 /* WorldGreetings_app_en.xctestplan */,
+				4FFA62642576522900231E57 /* WorldGreetings_app_es.xctestplan */,
 				4FFA62502576502A00231E57 /* en.lproj */,
 				4FFA624D2576502A00231E57 /* es.lproj */,
 				4FFA621725764FA900231E57 /* WorldGreetings_App.swift */,

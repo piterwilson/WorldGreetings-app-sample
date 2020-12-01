@@ -29,11 +29,11 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:WorldGreetings_app_en.xctestplan"
+            reference = "container:WorldGreetings_app/WorldGreetings_app_en.xctestplan"
             default = "YES">
          </TestPlanReference>
          <TestPlanReference
-            reference = "container:WorldGreetings_app_es.xctestplan">
+            reference = "container:WorldGreetings_app/WorldGreetings_app_es.xctestplan">
          </TestPlanReference>
       </TestPlans>
       <Testables>
