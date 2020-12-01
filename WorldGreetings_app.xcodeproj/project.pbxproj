@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FFA621825764FA900231E57 /* WorldGreetings_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA621725764FA900231E57 /* WorldGreetings_App.swift */; };
+		4FFA621A25764FA900231E57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA621925764FA900231E57 /* ContentView.swift */; };
+		4FFA621C25764FAB00231E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFA621B25764FAB00231E57 /* Assets.xcassets */; };
+		4FFA621F25764FAB00231E57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFA621E25764FAB00231E57 /* Preview Assets.xcassets */; };
+		4FFA624625764FC800231E57 /* WorldGreetings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA624525764FC800231E57 /* WorldGreetings.swift */; };
+		4FFA62532576502A00231E57 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FFA624E2576502A00231E57 /* Localizable.strings */; };
+		4FFA62542576502A00231E57 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FFA62512576502A00231E57 /* Localizable.strings */; };
+		4FFA625C2576505200231E57 /* WorldGreetingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA625B2576505200231E57 /* WorldGreetingsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FFA622625764FAC00231E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FFA620C25764FA900231E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FFA621325764FA900231E57;
+			remoteInfo = WorldGreetings_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FFA621425764FA900231E57 /* WorldGreetings_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldGreetings_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFA621725764FA900231E57 /* WorldGreetings_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldGreetings_App.swift; sourceTree = "<group>"; };
+		4FFA621925764FA900231E57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FFA621B25764FAB00231E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FFA621E25764FAB00231E57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FFA622025764FAB00231E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFA622525764FAC00231E57 /* WorldGreetings_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldGreetings_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFA622B25764FAC00231E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFA624525764FC800231E57 /* WorldGreetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldGreetings.swift; sourceTree = "<group>"; };
+		4FFA624F2576502A00231E57 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		4FFA62522576502A00231E57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		4FFA625B2576505200231E57 /* WorldGreetingsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldGreetingsTests.swift; sourceTree = "<group>"; };
+		4FFA6260257651FB00231E57 /* WorldGreetings_app_en.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = WorldGreetings_app_en.xctestplan; sourceTree = "<group>"; };
+		4FFA62642576522900231E57 /* WorldGreetings_app_es.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = WorldGreetings_app_es.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FFA621125764FA900231E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFA622225764FAC00231E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FFA620B25764FA900231E57 = {
+			isa = PBXGroup;
+			children = (
+				4FFA6260257651FB00231E57 /* WorldGreetings_app_en.xctestplan */,
+				4FFA62642576522900231E57 /* WorldGreetings_app_es.xctestplan */,
+				4FFA621625764FA900231E57 /* WorldGreetings_app */,
+				4FFA622825764FAC00231E57 /* WorldGreetings_appTests */,
+				4FFA621525764FA900231E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FFA621525764FA900231E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FFA621425764FA900231E57 /* WorldGreetings_app.app */,
+				4FFA622525764FAC00231E57 /* WorldGreetings_appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FFA621625764FA900231E57 /* WorldGreetings_app */ = {
+			isa = PBXGroup;
+			children = (
+				4FFA62502576502A00231E57 /* en.lproj */,
+				4FFA624D2576502A00231E57 /* es.lproj */,
+				4FFA621725764FA900231E57 /* WorldGreetings_App.swift */,
+				4FFA621925764FA900231E57 /* ContentView.swift */,
+				4FFA621B25764FAB00231E57 /* Assets.xcassets */,
+				4FFA622025764FAB00231E57 /* Info.plist */,
+				4FFA621D25764FAB00231E57 /* Preview Content */,
+				4FFA624525764FC800231E57 /* WorldGreetings.swift */,
+			);
+			path = WorldGreetings_app;
+			sourceTree = "<group>";
+		};
+		4FFA621D25764FAB00231E57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FFA621E25764FAB00231E57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FFA622825764FAC00231E57 /* WorldGreetings_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FFA625B2576505200231E57 /* WorldGreetingsTests.swift */,
+				4FFA622B25764FAC00231E57 /* Info.plist */,
+			);
+			path = WorldGreetings_appTests;
+			sourceTree = "<group>";
+		};
+		4FFA624D2576502A00231E57 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4FFA624E2576502A00231E57 /* Localizable.strings */,
+			);
+			path = es.lproj;
+			sourceTree = "<group>";
+		};
+		4FFA62502576502A00231E57 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4FFA62512576502A00231E57 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FFA621325764FA900231E57 /* WorldGreetings_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFA623925764FAC00231E57 /* Build configuration list for PBXNativeTarget "WorldGreetings_app" */;
+			buildPhases = (
+				4FFA621025764FA900231E57 /* Sources */,
+				4FFA621125764FA900231E57 /* Frameworks */,
+				4FFA621225764FA900231E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldGreetings_app;
+			productName = WorldGreetings_app;
+			productReference = 4FFA621425764FA900231E57 /* WorldGreetings_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FFA622425764FAC00231E57 /* WorldGreetings_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFA623C25764FAC00231E57 /* Build configuration list for PBXNativeTarget "WorldGreetings_appTests" */;
+			buildPhases = (
+				4FFA622125764FAC00231E57 /* Sources */,
+				4FFA622225764FAC00231E57 /* Frameworks */,
+				4FFA622325764FAC00231E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FFA622725764FAC00231E57 /* PBXTargetDependency */,
+			);
+			name = WorldGreetings_appTests;
+			productName = WorldGreetings_appTests;
+			productReference = 4FFA622525764FAC00231E57 /* WorldGreetings_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFA620C25764FA900231E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4FFA621325764FA900231E57 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4FFA622425764FAC00231E57 = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+						TestTargetID = 4FFA621325764FA900231E57;
+					};
+				};
+			};
+			buildConfigurationList = 4FFA620F25764FA900231E57 /* Build configuration list for PBXProject "WorldGreetings_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 4FFA620B25764FA900231E57;
+			productRefGroup = 4FFA621525764FA900231E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FFA621325764FA900231E57 /* WorldGreetings_app */,
+				4FFA622425764FAC00231E57 /* WorldGreetings_appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FFA621225764FA900231E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFA621F25764FAB00231E57 /* Preview Assets.xcassets in Resources */,
+				4FFA62542576502A00231E57 /* Localizable.strings in Resources */,
+				4FFA62532576502A00231E57 /* Localizable.strings in Resources */,
+				4FFA621C25764FAB00231E57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFA622325764FAC00231E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FFA621025764FA900231E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFA621A25764FA900231E57 /* ContentView.swift in Sources */,
+				4FFA621825764FA900231E57 /* WorldGreetings_App.swift in Sources */,
+				4FFA624625764FC800231E57 /* WorldGreetings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFA622125764FAC00231E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFA625C2576505200231E57 /* WorldGreetingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FFA622725764FAC00231E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FFA621325764FA900231E57 /* WorldGreetings_app */;
+			targetProxy = 4FFA622625764FAC00231E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FFA624E2576502A00231E57 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFA624F2576502A00231E57 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4FFA62512576502A00231E57 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFA62522576502A00231E57 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FFA623725764FAC00231E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FFA623825764FAC00231E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FFA623A25764FAC00231E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldGreetings_app/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BA7PGZ44F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WorldGreetings_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piterwilson.WorldGreetings-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FFA623B25764FAC00231E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldGreetings_app/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BA7PGZ44F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WorldGreetings_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piterwilson.WorldGreetings-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FFA623D25764FAC00231E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BA7PGZ44F;
+				INFOPLIST_FILE = WorldGreetings_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piterwilson.WorldGreetings-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldGreetings_app.app/WorldGreetings_app";
+			};
+			name = Debug;
+		};
+		4FFA623E25764FAC00231E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BA7PGZ44F;
+				INFOPLIST_FILE = WorldGreetings_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piterwilson.WorldGreetings-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldGreetings_app.app/WorldGreetings_app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FFA620F25764FA900231E57 /* Build configuration list for PBXProject "WorldGreetings_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFA623725764FAC00231E57 /* Debug */,
+				4FFA623825764FAC00231E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFA623925764FAC00231E57 /* Build configuration list for PBXNativeTarget "WorldGreetings_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFA623A25764FAC00231E57 /* Debug */,
+				4FFA623B25764FAC00231E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFA623C25764FAC00231E57 /* Build configuration list for PBXNativeTarget "WorldGreetings_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFA623D25764FAC00231E57 /* Debug */,
+				4FFA623E25764FAC00231E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FFA620C25764FA900231E57 /* Project object */;
+}

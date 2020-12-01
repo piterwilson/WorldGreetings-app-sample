@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "517AA5D5-A6B8-4356-9F38-1135907F04BB",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:WorldGreetings_app.xcodeproj",
+      "identifier" : "4FFA621325764FA900231E57",
+      "name" : "WorldGreetings_app"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "WorldGreetingsTests\/testHello_IsLocalizedInSpanish()",
+        "WorldGreetings_appTests"
+      ],
+      "target" : {
+        "containerPath" : "container:WorldGreetings_app.xcodeproj",
+        "identifier" : "4FFA622425764FAC00231E57",
+        "name" : "WorldGreetings_appTests"
+      }
+    }
+  ],
+  "version" : 1
+}
